@@ -1,0 +1,46 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family: Calibri, Tahoma, Arial;
+}
+
+
+
+div, table, td, tr
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: xx-large;
+    box-sizing: border-box;
+}
+
+.dot
+{
+    background-color: black;
+    border-radius: 100%;
+}
+
+.vline, .hline
+{
+    border-radius: 15px;
+}
+
+.box
+{
+    background-color: lightgray;
+    border-radius: 15px;
+}
+
+
+.none:hover
+{
+    background-color: lightgray;
+}
